@@ -1,4 +1,4 @@
-// const onMouseHover = document.getElementById("mouse");
-// onMouseHover.addEventListener("mouseover", function () {
-//   alert("!!! Site still under construction !!!");
-// });
+const onMouseHover = document.getElementsByClassName("footer");
+onMouseHover.addEventListener("mouseover", function () {
+  alert("!!! Site still under construction !!!");
+});
