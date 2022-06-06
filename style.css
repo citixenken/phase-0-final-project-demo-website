@@ -67,6 +67,17 @@ a:active {
   gap: 0.825%;
 }
 
+.notice {
+  font-size: 1em;
+  margin: 0.5em;
+  cursor: pointer;
+  color: red;
+  background-color: cyan;
+
+  /* padding: 1em 1.5em;
+  margin-bottom: 0 auto; */
+}
+
 /* Footer */
 .footer {
   position: fixed;
