@@ -7,9 +7,14 @@ const onClick = document.getElementsByClassName("notice")[0];
 const extraContent = document.getElementsByClassName("extra")[0];
 onClick.addEventListener("click", function () {
   if (extraContent.style.display === "none") {
+    onClick.textContent = "Close README.md";
     extraContent.style.display = "block";
-    addImage("./under-construction.jpg", "⚠️Site Under Construction⚠️");
+    addImage(
+      "./under-construction.jpg",
+      "⚠️Gotcha!!! Site Under Construction⚠️"
+    );
   } else {
+    onClick.textContent = "Open README.md";
     extraContent.style.display = "none";
   }
 });
