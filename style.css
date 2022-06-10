@@ -27,10 +27,19 @@ h1 {
   font-size: 3.5em;
   margin-bottom: 0;
 }
+h2 {
+  color: red;
+}
 
 h3 {
   font-size: 1.5em;
   margin-top: 0.5em;
+}
+
+img {
+  max-width: 80%;
+  height: 80%;
+  object-fit: contain;
 }
 
 p {
@@ -76,6 +85,9 @@ a:active {
 
   /* padding: 1em 1.5em;
   margin-bottom: 0 auto; */
+}
+.extra {
+  display: none;
 }
 
 /* Footer */
